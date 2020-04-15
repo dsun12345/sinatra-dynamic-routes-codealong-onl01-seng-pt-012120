@@ -22,7 +22,6 @@ class App < Sinatra::Base
     @number_one = params[:num1]
     @number_two = params[:num2]
     @number_one * @number_two
-    erb :'multiply/show.html'
   end 
 
 
